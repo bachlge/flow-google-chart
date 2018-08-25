@@ -1,4 +1,4 @@
-package com.gork.FlowGoogleMaps.view;
+package com.gork.FlowGoogleCharts.view;
 
 import java.util.List;
 

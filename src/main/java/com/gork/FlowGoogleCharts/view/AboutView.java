@@ -1,4 +1,4 @@
-package com.gork.FlowGoogleMaps.view;
+package com.gork.FlowGoogleCharts.view;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,8 +30,8 @@ public class AboutView extends Composite<Div> {
         content.add(new H3("Welcome to this small Vaadin Flow application."));
         content.add(new Span("See how simple it is to include (well documented) WebComponents into your Vaadin Application."));
 
-        String route = UI.getCurrent().getRouter().getUrl(XGoogleMapView.class);
-        Anchor link = new Anchor(route, "Navigate to the Map");
+        String route = UI.getCurrent().getRouter().getUrl(XGoogleChartsView.class);
+        Anchor link = new Anchor(route, "Navigate to the Charts");
 
         Paragraph copyright = new Paragraph();
 		copyright.setText("(c) Gork 2018");

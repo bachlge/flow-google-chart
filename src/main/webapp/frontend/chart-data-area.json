@@ -1,0 +1,13 @@
+{
+  "cols": [
+        {"id": "A", "label": "Asset", "type": "string"},
+        {"id": "B", "label": "Daimler", "type": "number"},
+        {"id": "C", "label": "Volkswagen", "type": "number"}
+      ],
+  "rows": [
+        {"c": [{"v": "a"}, {"v": 4.0}, {"v": 4.2}]},
+        {"c": [{"v": "b"}, {"v": 3.6}, {"v": 4.0}]},
+        {"c": [{"v": "c"}, {"v": 4.5}, {"v": 4.3}]},
+        {"c": [{"v": "d"}, {"v": 4.0}, {"v": 3.8}]}
+      ]
+}

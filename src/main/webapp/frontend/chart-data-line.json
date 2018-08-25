@@ -1,0 +1,15 @@
+{
+  "cols": [
+        {"id": "A", "label": "Asset", "type": "string"},
+        {"id": "B", "label": "OMV", "type": "number"},
+        {"id": "C", "label": "Andritz", "type": "number"},
+        {"id": "D", "label": "Air Liquide", "type": "number"},
+        {"id": "E", "label": "Daimler", "type": "number"}
+      ],
+  "rows": [
+        {"c": [{"v": "Mar"}, {"v": 4.2}, {"v": 4.5}, {"v": 3.4}, {"v": 4.0}]},
+        {"c": [{"v": "Jun"}, {"v": 4.3}, {"v": 4.4}, {"v": 3.5}, {"v": 3.8}]},
+        {"c": [{"v": "Sep"}, {"v": 4.5}, {"v": 4.2}, {"v": 3.4}, {"v": 3.7}]},
+        {"c": [{"v": "Dec"}, {"v": 4.6}, {"v": 4.3}, {"v": 3.2}, {"v": 3.7}]}
+      ]
+}
