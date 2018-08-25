@@ -131,8 +131,6 @@ public class XGoogleChartsView extends Composite<Div> {
 		GoogleChart chart9a = new GoogleChart();
 		chart9a.setType(ChartType.GEO);
 		chart9a.setTitle("Geo Chart, data from Json-File");
-		chart9a.getElement().setProperty("mapsApiKey", "AIzaSyC0B_DIHuzF_D21l9HhlRW4ZhjIFvzk5fc"); // documentation
-//		chart9a.getElement().setProperty("apiKey", "AIzaSyC0B_DIHuzF_D21l9HhlRW4ZhjIFvzk5fc"); // maps element wants it like this
 		chart9a.setOption("region", "002"); // Africa
 		chart9a.setOption("region", "005"); // South America
 		chart9a.setOption("region", "021"); // Northern America
@@ -151,8 +149,6 @@ public class XGoogleChartsView extends Composite<Div> {
 		GoogleChart chart9b = new GoogleChart();
 		chart9b.setType(ChartType.GEO);
 		chart9b.setTitle("Geo Chart, dynamic data");
-		chart9b.getElement().setProperty("mapsApiKey", "AIzaSyC0B_DIHuzF_D21l9HhlRW4ZhjIFvzk5fc"); // documentation
-		chart9b.getElement().setProperty("apiKey", "AIzaSyC0B_DIHuzF_D21l9HhlRW4ZhjIFvzk5fc"); // maps element wants it like this
 		chart9b.setOption("region", "150"); // Europe
 		chart9b.addData("Country", "Greenity-Factor");
 		chart9b.addData("AT", 600.0);
