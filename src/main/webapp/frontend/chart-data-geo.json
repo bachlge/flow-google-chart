@@ -1,6 +1,9 @@
 {
-	"data": [
-        {"c": [{"v": "Country"}, {"v": "Popularity"}]},
+  "cols": [
+        {"id": "A", "label": "Country", "type": "string"},
+        {"id": "B", "label": "Greenity Factor", "type": "number"}
+      ],
+	"rows": [
         {"c": [{"v": "AT"}, {"v": 610}]},
         {"c": [{"v": "FR"}, {"v": 410}]},
         {"c": [{"v": "GR"}, {"v": 210}]},
