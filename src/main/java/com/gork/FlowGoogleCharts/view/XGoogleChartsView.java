@@ -127,7 +127,7 @@ public class XGoogleChartsView extends Composite<Div> {
 		chart8b.addColumn("ColA", "date");
 		chart8b.addColumn("ColB", "number");
 
-		// Json Geo -- TODO
+		// Json Geo -- ok
 		GoogleChart chart9a = new GoogleChart();
 		chart9a.setType(ChartType.GEO);
 		chart9a.setTitle("Geo Chart, data from Json-File");
