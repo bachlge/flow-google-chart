@@ -1,4 +1,4 @@
-# FlowGoogleMaps
+# FlowGoogleCharts
 Vaadin Flow - Integration of Google Charts Webcomponent
 
 Could not believe how easy it is to use (well documented) WebComponents with Vaadin Flow.
