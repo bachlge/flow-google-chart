@@ -16,7 +16,6 @@ import elemental.json.JsonArray;
 import elemental.json.JsonObject;
 import elemental.json.impl.JreJsonFactory;
 
-
 @SuppressWarnings("serial")
 @Tag("google-chart")
 @HtmlImport("bower_components/google-chart/google-chart.html")
@@ -160,7 +159,7 @@ public class GoogleChart extends Component {
 	public void redraw() {
 		getElement().callFunction("redraw");
 	}
-
+/*
 	@Synchronize("google-chart-ready")
 	public Object getReady() {
 		LOGGER.info("onReady ...");
@@ -178,5 +177,5 @@ public class GoogleChart extends Component {
 		LOGGER.info("onSelectionChanged ...");
 		return null;
 	}
-
+*/
 }

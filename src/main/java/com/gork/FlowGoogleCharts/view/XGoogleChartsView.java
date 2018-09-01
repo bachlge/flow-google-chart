@@ -182,6 +182,7 @@ public class XGoogleChartsView extends Composite<Div> {
 				new HorizontalLayout(chart9a, chart9b),
 				copyright
 			);
+				
 	}
 
 	@PostConstruct
